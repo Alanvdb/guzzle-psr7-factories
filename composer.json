@@ -3,9 +3,9 @@
     "description": "Separated guzzlehttp/Psr7 HTTP message factories.",
     "type": "library",
     "require": {
-        "guzzlehttp/psr7": "3.0.x-dev",
-        "psr/http-message": "^2.0@dev",
-        "psr/http-factory": "^1.1"
+        "psr/http-factory": "^1.1",
+        "psr/http-message": "^2.0",
+        "guzzlehttp/psr7": "^2.7"
     },
     "license": "MIT",
     "autoload": {
