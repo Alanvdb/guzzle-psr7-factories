@@ -1,0 +1,22 @@
+{
+    "name": "alanvdb/guzzle-psr7-factories",
+    "description": "Separated guzzlehttp/Psr7 HTTP message factories.",
+    "type": "library",
+    "require": {
+        "guzzlehttp/psr7": "3.0.x-dev",
+        "psr/http-message": "^2.0@dev",
+        "psr/http-factory": "^1.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AlanVdb\\Http\\Factory\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alanvdb",
+            "email": "alanvdb.coder@gmail.com"
+        }
+    ]
+}
