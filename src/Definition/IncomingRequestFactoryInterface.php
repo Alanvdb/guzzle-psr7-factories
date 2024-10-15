@@ -2,7 +2,9 @@
 
 namespace AlanVdb\Http\Definition;
 
-interface ServerRequestFromGlobalsFactoryInterface
+use Psr\Http\Message\ServerRequestInterface;
+
+interface IncomingRequestFactoryInterface
 {
     public function createServerRequestFromGlobals(): ServerRequestInterface;
 }

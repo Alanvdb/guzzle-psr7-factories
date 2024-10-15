@@ -2,12 +2,12 @@
 
 namespace AlanVdb\Http\Factory;
 
-use AlanVdb\Http\Definition\ServerRequestFromGlobalsFactoryInterface;
+use AlanVdb\Http\Definition\IncomingRequestFactoryInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use GuzzleHttp\Psr7\ServerRequest;
 
 class GuzzleServerRequestFromGlobalsFactory
-    implements ServerRequestFromGlobalsFactoryInterface
+    implements IncomingRequestFactoryInterface
 {
     public function createServerRequestFromGlobals(): ServerRequestInterface
     {
