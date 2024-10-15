@@ -2,7 +2,7 @@
 
 namespace AlanVdb\Http\Definition;
 
-interface GuzzleServerRequestFromGlobalsFactoryInterface
+interface ServerRequestFromGlobalsFactoryInterface
 {
     public function createServerRequestFromGlobals(): ServerRequestInterface;
 }
